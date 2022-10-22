@@ -1,3 +1,11 @@
+body {
+  background-image: url('3NIEQB3SFVCMNHH6MHZ42FO6PA.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646
+}
 
 /* Style the header with a grey background and some padding */
 .header {
