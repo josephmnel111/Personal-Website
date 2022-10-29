@@ -1,4 +1,8 @@
-
+body {
+  background-image: url( '../../background.jpg' );
+  background-position: center center;
+  background-size: cover
+}
 
 button {
   background-image: linear-gradient(#42A1EC, #0070C9);
@@ -25,25 +29,22 @@ button {
   white-space: nowrap;
 }
 
-body {
-  background-image: url( '../../background.jpg' );
-  background-position: center center;
-  background-size: cover
-}
-
 .project{
-  height: 50%
+  background-color: #f1f1f1;
+  border:1px solid black;
+  text-align: center;
 }
 
 .projects-container {
+  transform: translate(0px, 100px);
+  height: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #f1f1f1;
-  border:1px solid black;
-  
 }
+
+
 .header {
   text-align: center;
   display: flex;
