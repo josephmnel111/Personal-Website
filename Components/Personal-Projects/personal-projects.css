@@ -5,11 +5,8 @@ body {
 }
 
 button {
-  background-image: linear-gradient(#42A1EC, #0070C9);
-  border: 1px solid #0077CC;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
   cursor: pointer;
   direction: ltr;
   display: block;
@@ -29,19 +26,31 @@ button {
   white-space: nowrap;
 }
 
+.github{
+  opacity: 1;
+  background-color: black;
+  color: white;
+}
+
+.details{
+  background-color: white;
+  color: black;
+}
+
 .project{
+  color: white;
   background-color: #f1f1f1;
   border:1px solid black;
   text-align: center;
+  margin: 20px;
+  height: 200px;
+  background-color: rgba(0,0,255,0.5);
+
 }
 
 .projects-container {
   transform: translate(0px, 100px);
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 50px;
 }
 
 
@@ -59,8 +68,7 @@ button {
   background-position: center top;
   background-size: auto 200px;
   background-repeat: repeat-x;
-  background-color: black;
-  opacity: .5;
+  background-color: rgba(0,0,255,0.5);
 }
 
 .left {
